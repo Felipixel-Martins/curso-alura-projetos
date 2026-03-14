@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Organizador Pessoal</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Meu Organizador</h1>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="home.html" data-module="home"><i class="fas fa-home"></i> Início</a></li>
+                    <li><a href="calendar.html" data-module="calendar"><i class="fas fa-calendar-alt"></i> Agenda</a></li>
+                    <li><a href="recipes.html" data-module="recipes"><i class="fas fa-utensils"></i> Receitas</a></li>
+                    <li><a href="tasks.html" data-module="tasks"><i class="fas fa-tasks"></i> Tarefas</a></li>
+                    <li><a href="shopping.html" data-module="shopping"><i class="fas fa-shopping-cart"></i> Compras</a></li>
+                </ul>
+            </nav>
+            <div class="user-menu">
+                <div class="user-avatar">JP</div>
+                <select id="language-selector">
+                    <option value="pt">🇧🇷 Português</option>
+                    <option value="en">🇺🇸 English</option>
+                    <option value="es">🇪🇸 Español</option>
+                </select>
+                <button class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </header>
+
+        <main>
+            <h2>Dashboard</h2>
+            <div class="dashboard-grid">
+                <!-- Upcoming Events Widget -->
+                <div class="widget">
+                    <div class="widget-header">
+                        <h3 class="widget-title">Próximos Compromissos</h3>
+                        <span class="widget-action"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="widget-content">
+                        <div class="event-item">
+                            <div class="event-time">10:00</div>
+                            <div class="event-details">
+                                <div class="event-title">Reunião com equipe</div>
+                                <div class="event-location">Sala de reuniões</div>
+                            </div>
+                        </div>
+                        <div class="event-item">
+                            <div class="event-time">15:30</div>
+                            <div class="event-details">
+                                <div class="event-title">Consulta médica</div>
+                                <div class="event-location">Clínica Saúde</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Recent Recipes Widget -->
+                <div class="widget">
+                    <div class="widget-header">
+                        <h3 class="widget-title">Receitas Recentes</h3>
+                        <span class="widget-action"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="widget-content">
+                        <div class="recipe-item">
+                            <div class="recipe-image" style="background-image: url('https://via.placeholder.com/50')"></div>
+                            <div class="recipe-details">
+                                <div class="recipe-title">Panquecas Integrais</div>
+                                <div class="recipe-category">Café da manhã</div>
+                            </div>
+                        </div>
+                        <div class="recipe-item">
+                            <div class="recipe-image" style="background-image: url('https://via.placeholder.com/50')"></div>
+                            <div class="recipe-details">
+                                <div class="recipe-title">Frango ao Curry</div>
+                                <div class="recipe-category">Jantar</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tasks Widget -->
+                <div class="widget">
+                    <div class="widget-header">
+                        <h3 class="widget-title">Tarefas Pendentes</h3>
+                        <span class="widget-action"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="widget-content">
+                        <div class="task-item">
+                            <input type="checkbox" id="task1">
+                            <label for="task1">Finalizar relatório mensal</label>
+                            <span class="task-priority high"></span>
+                        </div>
+                        <div class="task-item">
+                            <input type="checkbox" id="task2">
+                            <label for="task2">Comprar presentes de aniversário</label>
+                            <span class="task-priority medium"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Shopping List Widget -->
+                <div class="widget">
+                    <div class="widget-header">
+                        <h3 class="widget-title">Lista de Compras</h3>
+                        <span class="widget-action"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="widget-content">
+                        <div class="shopping-item">
+                            <input type="checkbox" id="item1">
+                            <label for="item1">Leite</label>
+                            <span class="item-quantity">2L</span>
+                        </div>
+                        <div class="shopping-item">
+                            <input type="checkbox" id="item2">
+                            <label for="item2">Pão integral</label>
+                            <span class="item-quantity">1 un</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

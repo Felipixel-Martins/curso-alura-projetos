@@ -1,0 +1,299 @@
+/* CSS DA PÁGINA PRINCIPAL */
+body {
+   font-family: 'Montserrat', sans-serif;
+}
+
+.titulo-principal {
+   font-size: 45px;
+   font-weight: bold;
+   padding: 30px;
+   color:#FFFFFF;
+   background:#BBBBBB;
+   clear: left;
+   
+}
+
+.titulo-principal:hover {
+   color: #F4A460;
+   transition: 2s;
+}
+
+.banner {
+   width: 100%;
+}
+
+.titulo-centralizado {
+   background-color:#000000;
+   text-align: center;
+   font-size: 2em;
+   padding-top: 16px;
+   padding-bottom: 19px;
+   
+   color:#FFFFFF;
+   
+}
+
+.titulo-centralizado:hover {
+   color: #F4A460;
+}
+
+nav {
+   position: absolute;
+   top: 50px;
+   right:15px;
+  margin-right:40px;
+}
+
+nav li {
+   display:inline;
+   margin:0 0 0 15px;
+}
+
+nav a {
+   text-transform:uppercase;
+   color:#000000;
+   font-size:22px;
+   text-decoration:none;
+}
+
+nav a:hover {
+   color:#C78C19;
+   text-decoration:underline;
+}
+
+.produtos {
+   width:940px;
+   margin:0 auto;
+   padding:50px 0;
+}
+
+.produtos li {
+   display: inline-block;
+   text-align:center;
+   width: 30%;
+   vertical-align: top;
+   margin: 0 1.5%;
+   padding:30px 20px;
+   box-sizing:border-box;
+   border-color:#000000;
+   border-width:2px;
+   border-style:solid;
+   border-radius:10px;
+}
+
+.produtos li:hover {
+   border-color: #C78C19;
+}
+
+.produtos li:active {
+   border-color:#FFA500;
+}
+
+.produtos li:hover h2 {
+   font-size: 34px;
+}
+
+.produtos h2 {
+   font-size:30px;
+   font-weight:bold;
+}
+
+#logo {
+   width: 7%;
+   padding: 1%;
+   position: absolute;
+   display: inline-block;
+}
+
+.banner-principal {
+   background-color: #BBBBBB;
+}
+
+.Principal {
+   background: #EEE8AA;
+   font-size: 23px;
+   padding: 3em 0;
+   margin: 0 auto;
+}
+
+p {
+   text-align: center;
+   height: 100%;
+   padding: 30px 200px;   
+ }
+
+ #missao {
+   font-size: 23px;
+   padding: 15px;
+}
+
+ em strong {
+    color:red;
+    font-weight: bold;
+ }
+
+ h3 {
+   text-align:center;
+   height: 24px;
+ } 
+
+ .alinhamento {
+   padding: 20px;
+   text-align: center;
+   background-color: #EEE8AA;
+   font-style: italic;
+ }
+
+.itens:before {
+   content: "☞";
+   color:red;
+}
+
+ .itens {
+   text-align: left;
+   font-size: 25px;
+   color: #000000;
+   font-style: italic;
+   padding-bottom: 10px;
+   margin-top: 50px;
+   text-decoration: underline;
+ }
+
+ .itens:hover {
+   transform: scale(1.2);
+}
+
+#Beneficios {
+   background-color: #EEE8AA;
+   font-size: 2em;
+ }
+
+ul {
+   display: inline-block;
+   vertical-align: top;
+   padding: 0 20px;
+}
+
+.utensilios {
+   width: 120px;
+   float: left;
+   margin: 0 20px 20px 0;
+   padding: 30px;
+}
+
+.imagembeneficios {
+   width:55%;
+   vertical-align: top;
+   margin-top: 25px;
+   margin-left: 70px;
+}
+
+.video {
+   width: 560px;
+   margin: 3em auto;
+}
+
+.titulo-mapa {
+   color:#FFFFFF;
+   background:#000000;
+   clear: left;
+   font-size: 2em;
+   padding-top: 16px;
+   padding-bottom: 19px;
+}
+
+.titulo-mapa:hover {
+   color: #F4A460;
+   transition: 2s;
+}
+
+.mapa {
+   padding: 3em 0;
+   background-color:#EEE8AA;
+   text-align: center;
+}
+
+.mapa p {
+   margin: 0 0 2em;
+   font-size: 18px; 
+}
+
+.mapa p:hover {
+   transform: scale(1.2);
+}
+
+footer {
+   text-align: center;
+   background-color:#000000;
+   padding: 30px 0;
+}
+
+.copyright {
+   color: #FFFFFF;
+   font-size: 13px;
+   margin: 20px 0 0;
+   padding: 30px 0; 
+}
+
+@media screen and (max-width:480px) {
+   .caixa, .Principal, .produtos, .video {
+      width: auto;
+   }
+   header {
+      background: #BBBBBB;
+   }
+
+   body {
+      width: auto;
+      margin: 0 auto;
+      position: absolute;
+   }
+   
+   .titulo-principal {
+      font-size: 45px;
+      padding: 30px;
+      color: #FFFFFF;
+      background: #BBBBBB;
+      clear: left;
+   }
+   
+   nav {
+      position: static;
+      margin-right: 40px;
+      top: 70px;
+      padding: 10px;
+      color: #000000;
+      font-size: 20px;
+      background: #BBBBBB;
+   }
+   
+   .Principal {
+      background: #EEE8AA;
+      font-size: 23px;
+      padding: 3em 0;
+      margin: 0 auto;
+   }
+
+   .video {
+      padding: inherit;
+   }
+
+   p {
+      text-align: center;
+      height: 100%;
+      padding: 40px;
+  }
+  .mapa p {
+   font-size: 36px;
+  }
+
+  .mapa {
+   background-color: #EEE8AA;
+   text-align: center;
+  }
+
+  #missao {
+   font-size: 27px;
+   padding: 15px;
+    }
+}

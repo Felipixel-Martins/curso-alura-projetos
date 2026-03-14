@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organizador Pessoal - Login</title>
+    <link rel="stylesheet" href="assets/css/auth.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="auth-container">
+        <div class="auth-header">
+            <h1>Organizador Pessoal</h1>
+            <p>Gerencie seus compromissos, receitas, tarefas e listas em um só lugar</p>
+        </div>
+        
+        <div class="auth-tabs">
+            <button class="tab-btn active" data-tab="login">Login</button>
+            <button class="tab-btn" data-tab="register">Cadastro</button>
+            <button class="tab-btn" data-tab="recover">Recuperar Senha</button>
+        </div>
+        
+        <div class="auth-content">
+            <!-- Login Form -->
+            <form id="login-form" class="auth-form active">
+                <div class="form-group">
+                    <label for="login-email">E-mail</label>
+                    <input type="email" id="login-email" required>
+                </div>
+                <div class="form-group">
+                    <label for="login-password">Senha</label>
+                    <input type="password" id="login-password" required>
+                </div>
+                <div class="form-options">
+                    <label>
+                        <input type="checkbox" id="remember-me"> Lembrar de mim
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-primary">Entrar</button>
+                <div class="social-login">
+                    <p>Ou entre com:</p>
+                    <button type="button" class="btn btn-google">
+                        <i class="fab fa-google"></i> Google
+                    </button>
+                </div>
+            </form>
+            
+            <!-- Register Form -->
+            <form id="register-form" class="auth-form">
+                <div class="form-group">
+                    <label for="register-name">Nome</label>
+                    <input type="text" id="register-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="register-email">E-mail</label>
+                    <input type="email" id="register-email" required>
+                </div>
+                <div class="form-group">
+                    <label for="register-password">Senha</label>
+                    <input type="password" id="register-password" required>
+                </div>
+                <div class="form-group">
+                    <label for="register-confirm">Confirme a Senha</label>
+                    <input type="password" id="register-confirm" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Cadastrar</button>
+            </form>
+            
+            <!-- Recover Form -->
+            <form id="recover-form" class="auth-form">
+                <div class="form-group">
+                    <label for="recover-email">E-mail</label>
+                    <input type="email" id="recover-email" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar Link de Recuperação</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="assets/js/auth.js"></script>
+</body>
+</html>
