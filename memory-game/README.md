@@ -1,3 +1,5 @@
+<img src="images/logo.png" alt="Image" height="250" width="500">
+
 # 🧠 Jogo da Memória — Rick and Morty
 
 Projeto de um jogo da memória inspirado na série **Rick and Morty**, desenvolvido com HTML, CSS e JavaScript.
@@ -59,9 +61,6 @@ Projeto desenvolvido como exercício prático para aprimorar conhecimentos em de
 Desenvolvido por **Felipixel-Martins**
 
 Projetos educacionais focados no aprendizado de desenvolvimento web.
-
-
-<img src="images/logo.png" alt="Image" height="250" width="500">
 
 
 
