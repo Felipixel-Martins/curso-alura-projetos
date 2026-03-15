@@ -18,11 +18,11 @@ Cada projeto desenvolvido durante os cursos está organizado em uma pasta própr
 
 Desenvolvimento de uma landing page utilizando HTML e CSS.
 
-🔗 GitHub
-https://github.com/Felipixel-Martins/alura-web-projects/tree/main/landing-page-html-css
-
 🔗 Projeto Online
-https://felipixel-martins.github.io/alura-web-projects/landing-page-html-css/
+https://felipixel-martins.github.io/curso-alura-projetos/memory-game/
+
+🔗 Repositório
+https://github.com/Felipixel-Martins/curso-alura-projetos/tree/main/memory-game
 
 Tecnologias utilizadas:
 
@@ -36,11 +36,11 @@ Tecnologias utilizadas:
 ## 🎨 Projeto 02 — site-alura-book
 Criação de um portfólio simples utilizando HTML e CSS.
 
-🔗 GitHub
-https://github.com/Felipixel-Martins/alura-web-projects/tree/main/portfolio-web
-
 🔗 Projeto Online
-https://felipixel-martins.github.io/alura-web-projects/portfolio-web/
+https://felipixel-martins.github.io/curso-alura-projetos/site-alura-book/
+
+🔗 Repositório
+https://github.com/Felipixel-Martins/curso-alura-projetos/tree/main/site-alura-book
 
 Tecnologias utilizadas:
 
@@ -54,11 +54,11 @@ Tecnologias utilizadas:
 
 Desenvolvimento de um site com layout responsivo.
 
-🔗 GitHub
-https://github.com/Felipixel-Martins/alura-web-projects/tree/main/site-responsivo
-
 🔗 Projeto Online
-https://felipixel-martins.github.io/alura-web-projects/site-responsivo/
+https://felipixel-martins.github.io/curso-alura-projetos/site-apeperia/
+
+🔗 Repositório
+https://github.com/Felipixel-Martins/curso-alura-projetos/tree/main/site-apeperia
 
 Tecnologias utilizadas:
 
@@ -73,11 +73,11 @@ Tecnologias utilizadas:
 
 Criação de layouts utilizando Flexbox.
 
-🔗 GitHub
-https://github.com/Felipixel-Martins/alura-web-projects/tree/main/layout-flexbox
-
 🔗 Projeto Online
-https://felipixel-martins.github.io/alura-web-projects/layout-flexbox/
+https://felipixel-martins.github.io/curso-alura-projetos/site-assinatura-planos/
+
+🔗 Repositório
+https://github.com/Felipixel-Martins/curso-alura-projetos/tree/main/site-assinatura-planos
 
 Tecnologias utilizadas:
 
@@ -92,12 +92,6 @@ Tecnologias utilizadas:
 
 Desenvolvimento de uma página de apresentação de produto.
 
-🔗 GitHub
-https://github.com/Felipixel-Martins/alura-web-projects/tree/main/pagina-produto
-
-🔗 Projeto Online
-https://felipixel-martins.github.io/alura-web-projects/pagina-produto/
-
 Tecnologias utilizadas:
 
 * HTML
@@ -109,12 +103,6 @@ Tecnologias utilizadas:
 ## ⚙️ Projeto 06 — site-meteora
 
 Projeto final desenvolvido durante o curso.
-
-🔗 GitHub
-https://github.com/Felipixel-Martins/alura-web-projects/tree/main/projeto-final
-
-🔗 Projeto Online
-https://felipixel-martins.github.io/alura-web-projects/projeto-final/
 
 Tecnologias utilizadas:
 
