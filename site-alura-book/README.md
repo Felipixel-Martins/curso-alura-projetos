@@ -22,6 +22,16 @@ O objetivo do projeto é praticar conceitos de **desenvolvimento front-end**, in
 
 ---
 
+# 🎮 Demonstração
+
+🔗 Projeto Online
+https://felipixel-martins.github.io/curso-alura-projetos/site-alura-book/
+
+🔗 Repositório
+https://github.com/Felipixel-Martins/curso-alura-projetos/tree/main/site-alura-book
+
+---
+
 # 🚀 Tecnologias Utilizadas
 
 Este projeto foi desenvolvido utilizando as seguintes tecnologias:
