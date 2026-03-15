@@ -31,9 +31,13 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 ---
 
-# 🖥️ Preview do Projeto
+# 🎮 Demonstração
 
-![Screenshot da tela inicial do Alura Plus](https://imgur.com/nKUf7MK.png)
+🔗 Projeto Online
+https://felipixel-martins.github.io/curso-alura-projetos/site-assinatura-planos/
+
+🔗 Repositório
+https://github.com/Felipixel-Martins/curso-alura-projetos/tree/main/site-assinatura-planos
 
 ---
 
