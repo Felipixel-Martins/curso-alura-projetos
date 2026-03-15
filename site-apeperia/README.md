@@ -16,6 +16,16 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 ---
 
+# 🎮 Demonstração
+
+🔗 Projeto Online
+https://felipixel-martins.github.io/curso-alura-projetos/site-apeperia/
+
+🔗 Repositório
+https://github.com/Felipixel-Martins/curso-alura-projetos/tree/main/site-apeperia
+
+---
+
 # 🎯 Objetivos do Projeto
 
 * Praticar construção de layouts responsivos
