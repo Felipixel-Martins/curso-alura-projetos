@@ -1,48 +1,52 @@
-🛍️ Site Meteora — E-commerce de Moda
+# 🛍️ Site Meteora — E-commerce de Moda
 
-Projeto de um e-commerce de moda chamado Meteora, desenvolvido com HTML, CSS e Bootstrap.
+Projeto de um **e-commerce de moda** chamado **Meteora**, desenvolvido com HTML, CSS e Bootstrap.  
 
-O site permite apresentar produtos de forma organizada e responsiva, proporcionando uma experiência de navegação agradável para os usuários.
+O site permite apresentar produtos de forma organizada e responsiva, proporcionando uma experiência de navegação agradável para os usuários.  
+
+---
 
 
-🔗 Projeto Online (adicione o link se estiver hospedado)
 
-🔗 Repositório
+🔗 Repositório  
 
-🛒 Funcionalidades
 
-Exibição de produtos de forma clara e organizada.
+---
 
-Layout totalmente responsivo, adaptável para dispositivos móveis e desktops.
+# 🛒 Funcionalidades
 
-Navegação intuitiva entre categorias e produtos.
+1. Exibição de produtos de forma clara e organizada.  
+2. Layout totalmente responsivo, adaptável para dispositivos móveis e desktops.  
+3. Navegação intuitiva entre categorias e produtos.  
+4. Preparado para futura integração com carrinho de compras e sistema de pagamento.  
 
-Preparado para futura integração com carrinho de compras e sistema de pagamento.
+---
 
-🛠️ Tecnologias utilizadas
+# 🛠️ Tecnologias utilizadas
 
-HTML
+* HTML  
+* CSS  
+* Bootstrap  
 
-CSS
+---
 
-Bootstrap
+# 🎯 Conceitos praticados
 
-🎯 Conceitos praticados
+* Layout responsivo com Bootstrap  
+* Estruturação de páginas web  
+* Organização de arquivos em projetos web  
+* Princípios de design de e-commerce  
 
-Layout responsivo com Bootstrap
+---
 
-Estruturação de páginas web
+# 🎓 Contexto do projeto
 
-Organização de arquivos em projetos web
+Desenvolvido como prática de desenvolvimento front-end e criação de e-commerces funcionais, focando em **usabilidade** e **apresentação de produtos**.  
 
-Princípios de design de e-commerce
+---
 
-🎓 Contexto do projeto
+# 👨‍💻 Autor
 
-Desenvolvido como prática de desenvolvimento front-end e criação de e-commerces funcionais, focando em usabilidade e apresentação de produtos.
+Desenvolvido por **Felipixel-Martins**  
 
-👨‍💻 Autor
-
-Desenvolvido por Felipixel-Martins
-
-Projetos educacionais focados no aprendizado de desenvolvimento web.
+Projetos educacionais focados no aprendizado de desenvolvimento web.  
