@@ -13,10 +13,10 @@ Este projeto foi desenvolvido como prática de lógica de programação e manipu
 # 🎮 Demonstração
 
 🔗 Projeto Online
-
+https://felipixel-martins.github.io/curso-alura-projetos/memory-game/
 
 🔗 Repositório
-
+https://github.com/Felipixel-Martins/curso-alura-projetos/tree/main/memory-game
 
 ---
 
